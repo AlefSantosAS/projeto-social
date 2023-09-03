@@ -8,7 +8,7 @@
 html, body{
     width: 100vw;
     height: 100vh;
-    background-color: black;
+    background-color: black;    
 }
 body{
     background: url('../imagens/fundo-madeira.jpg')no-repeat center top;
@@ -29,4 +29,12 @@ section#telefone{
     width: 311px;
     background-color: blue;
     background: url('../imagens/frame-iphone.png')no-repeat;
+}
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+    background-size: cover;
 }
